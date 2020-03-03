@@ -4,13 +4,13 @@ require 'pry'
 class Song 
 attr_accessor :name, :artist, :genre 
 
-@@Song_counter = 0 
+@@count = 0 
 
 def initialze
   @@name
   @@artist
   @@genre 
-  @@Song_counter += 1 
+  @@count += 1 
 end
 
 def artists 
