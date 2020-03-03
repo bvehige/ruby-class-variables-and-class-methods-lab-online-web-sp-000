@@ -29,9 +29,9 @@ def self.genres
 end
 
 def self.genre_count
-  binding.pry
   x = {}
   @@genres.each do |genre|
+    
 end
 end
 end
