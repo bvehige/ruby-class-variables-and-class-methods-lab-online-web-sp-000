@@ -13,10 +13,8 @@ def initialze
   @@count += 1 
 end
 
-def self.
-  artist.each do |artists|
-    puts "#{artist}"
-  end
+def self.count
+  @@count 
 end
 
 
