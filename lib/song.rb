@@ -3,10 +3,13 @@ require 'pry'
 
 class Song 
 attr_accessor :name, :artist, :genre 
-binding.pry
+
 @@Song_counter = 0 
 
 def initialze
+  @@name
+  @@artist
+  @@genre 
   @@Song_counter += 1 
 end
 
