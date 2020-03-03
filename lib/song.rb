@@ -29,17 +29,29 @@ def self.genres
 end
 
 def self.genre_count
-   x = {}
+   gc = {}
 	 @@genres.each do |genre|
-	    if x[genre] 
-			   x[genre] += 1
+	    if gc[genre] 
+			   gc[genre] += 1
 			else
-			   x[genre] = 1
+			   gc[genre] = 1
 			end
 			
 	end
 	x
 	end
+	
+def self.artist_count
+   ac = {}
+   @@artists.each do |artist|
+     if ac[artist]
+       ac[artist] += 1 
+     else
+       ac[artist] = 1 
+     end
+   end
+   ac
+ end
       
 end
 
