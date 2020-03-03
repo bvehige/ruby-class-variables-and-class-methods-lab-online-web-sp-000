@@ -6,7 +6,7 @@ attr_accessor :name, :artist, :genre
 
 @@count = 0 
 
-def initialze
+def initialze(name, artist, genre)
   @@name
   @@artist
   @@genre 
